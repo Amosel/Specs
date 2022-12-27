@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Amos Elmaliah" => "amosel@gmail.com" }
   spec.platforms    = { :ios => "13.0" }
   spec.platform     = :ios, "5.0"
-  spec.source       = { :git => "http://EXAMPLE/HolonymSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://www.dropbox.com/s/q4gwqlpd5vep083/release-0.0.1.zip" }
   spec.ios.vendored_library = '*.a'
   spec.source_files = ['holonym.swift', 'holonymFFI.h']
 
